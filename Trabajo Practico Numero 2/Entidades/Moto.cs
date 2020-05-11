@@ -9,6 +9,7 @@ namespace Entidades
     public class Moto : Vehiculo
     {
         public Moto(EMarca marca, string chasis, ConsoleColor color)
+            : base(chasis, marca, color)
         {
         }
 
@@ -19,21 +20,21 @@ namespace Entidades
         {
             get
             {
-                return 0;
+                return ETamanio.Chico;
             }
         }
 
-        private override sealed string Mostrar()
+        public override sealed string Mostrar()
         {
             StringBuilder sb = new StringBuilder();
 
             sb.AppendLine("MOTO");
-            sb.AppendLine(this.Mostrar());
-            sb.AppendLine("TAMAÑO : {0}", this.Tamanio);
+            sb.AppendLine(base.Mostrar());
+            sb.AppendFormat("TAMAÑO : {0}", this.Tamanio);
             sb.AppendLine("");
             sb.AppendLine("---------------------");
 
-            return sb;
+            return sb.ToString();
         }
     }
 }

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Entidades;
 
 namespace TP_02_2018
 {
@@ -15,14 +16,14 @@ namespace TP_02_2018
             Console.SetWindowSize(Console.LargestWindowWidth / 2, Console.LargestWindowHeight - 2);
 
             // Nombre del alumno
-            Console.Title = "";
+            Console.Title = "Matias Cardullo";
 
             Estacionamiento estacionamiento = new Estacionamiento(6);
 
             Moto c1 = new Moto(Vehiculo.EMarca.BMW, "ASD012", ConsoleColor.Black);
             Moto c2 = new Moto(Vehiculo.EMarca.Honda, "ASD913", ConsoleColor.Red);
             Automovil m1 = new Automovil(Vehiculo.EMarca.Toyota, "HJK789", ConsoleColor.White);
-            Automovil m2 = new Automovil(Vehiculo.EMarca.Chevrolet, "IOP852", ConsoleColor.Blue, Automovil.ETipo.Sedan);
+            Automovil m2 = new Automovil(Vehiculo.EMarca.Chevrolet, "IOP852", ConsoleColor.Blue);
             Camioneta a1 = new Camioneta(Vehiculo.EMarca.Ford, "QWE968", ConsoleColor.Gray);
             Camioneta a2 = new Camioneta(Vehiculo.EMarca.Renault, "TYU426", ConsoleColor.DarkBlue);
             Camioneta a3 = new Camioneta(Vehiculo.EMarca.BMW, "IOP852", ConsoleColor.Green);
@@ -59,7 +60,7 @@ namespace TP_02_2018
             // Muestro solo Moto
             Console.WriteLine(Estacionamiento.Mostrar(estacionamiento, Estacionamiento.ETipo.Moto));
             Console.WriteLine("<-----------PRESIONE UNA TECLA PARA CONTINUAR----------->");
-            Console.Beep();
+            Console.ReadKey();
             Console.Clear();
 
             // Muestro solo Automovil

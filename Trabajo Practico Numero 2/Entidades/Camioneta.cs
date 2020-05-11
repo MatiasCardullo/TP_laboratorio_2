@@ -19,7 +19,7 @@ namespace Entidades
         {
             get
             {
-                return 0;
+                return ETamanio.Grande;
             }
         }
 
@@ -28,12 +28,12 @@ namespace Entidades
             StringBuilder sb = new StringBuilder();
 
             sb.AppendLine("CAMIONETA");
-            sb.AppendLine(base);
-            sb.AppendLine("TAMAÑO : {0}", this.Tamanio);
+            sb.AppendLine(base.Mostrar());
+            sb.AppendFormat("TAMAÑO : {0}", this.Tamanio);
             sb.AppendLine("");
             sb.AppendLine("---------------------");
 
-            return sb;
+            return sb.ToString();
         }
     }
 }

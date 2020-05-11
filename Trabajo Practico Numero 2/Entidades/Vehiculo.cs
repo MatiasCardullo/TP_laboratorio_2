@@ -24,6 +24,19 @@ namespace Entidades
         ConsoleColor color;
 
         /// <summary>
+        /// Constructor por defecto para crear un Vehículo.
+        /// </summary>
+        /// <param name="chasis">Chasis del vehículo.</param>
+        /// <param name="marca">Marca del vehículo.</param>
+        /// <param name="color">Color del vehículo.</param>
+        public Vehiculo(string chasis, EMarca marca, ConsoleColor color)
+        {
+            this.chasis = chasis;
+            this.marca = marca;
+            this.color = color;
+        }
+
+        /// <summary>
         /// ReadOnly: Retornará el tamaño
         /// </summary>
         public abstract ETamanio Tamanio {get;}
@@ -34,17 +47,11 @@ namespace Entidades
         /// <returns></returns>
         public virtual string Mostrar()
         {
-            return this.ToString();
-        }
-
-        public static explicit operator string(Vehiculo p)
-        {
             StringBuilder sb = new StringBuilder();
 
-            sb.AppendFormat("CHASIS: {0}\r\n", p.chasis);
-            sb.AppendFormat("MARCA : {0}\r\n", p.marca.ToString());
-            sb.AppendFormat("COLOR : {0}\r\n", p.color.ToString());
-            sb.AppendLine("---------------------");
+            sb.AppendFormat("CHASIS: {0}\r\n", this.chasis);
+            sb.AppendFormat("MARCA : {0}\r\n", this.marca.ToString());
+            sb.AppendFormat("COLOR : {0}\r", this.color.ToString());
 
             return sb.ToString();
         }

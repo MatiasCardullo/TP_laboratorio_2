@@ -15,3 +15,9 @@ C:\Users\Matias\Desktop\Classroom\Programación y Laboratorio\TP II\TP-02\Entida
 C:\Users\Matias\Desktop\Classroom\Programación y Laboratorio\TP II\TP-02\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
 C:\Users\Matias\Desktop\Classroom\Programación y Laboratorio\TP II\TP-02\Entidades\obj\Debug\Entidades.dll
 C:\Users\Matias\Desktop\Classroom\Programación y Laboratorio\TP II\TP-02\Entidades\obj\Debug\Entidades.pdb
+C:\Users\Matias\Desktop\TP_laboratorio_2\Trabajo Practico Numero 2\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\Matias\Desktop\TP_laboratorio_2\Trabajo Practico Numero 2\Entidades\obj\Debug\Entidades.dll
+C:\Users\Matias\Desktop\TP_laboratorio_2\Trabajo Practico Numero 2\Entidades\obj\Debug\Entidades.pdb
+C:\Users\Matias\Desktop\TP_laboratorio_2\Trabajo Practico Numero 2\Entidades\bin\Debug\Entidades.dll
+C:\Users\Matias\Desktop\TP_laboratorio_2\Trabajo Practico Numero 2\Entidades\bin\Debug\Entidades.pdb
+C:\Users\Matias\Desktop\TP_laboratorio_2\Trabajo Practico Numero 2\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache

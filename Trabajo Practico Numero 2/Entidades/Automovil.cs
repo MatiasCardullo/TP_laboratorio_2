@@ -8,10 +8,11 @@ using System.Drawing;
 
 namespace Entidades
 {
-    class Automovil : Vehiculo
+    public class Automovil : Vehiculo
     {
         public enum ETipo { Monovolumen, Sedan }
-        ETipo tipo;
+
+        readonly ETipo tipo;
 
         /// <summary>
         /// Por defecto, TIPO será Monovolumen
@@ -32,7 +33,7 @@ namespace Entidades
         {
             get
             {
-                return this.Tamanio;
+                return ETamanio.Mediano;
             }
         }
 
@@ -41,13 +42,14 @@ namespace Entidades
             StringBuilder sb = new StringBuilder();
 
             sb.AppendLine("AUTOMOVIL");
-            sb.AppendLine(this);
+            sb.AppendLine(base.Mostrar());
             sb.AppendFormat("TAMAÑO : {0}", this.Tamanio);
+            sb.AppendLine("");
             sb.AppendLine("TIPO : " + this.tipo);
             sb.AppendLine("");
             sb.AppendLine("---------------------");
 
-            return sb;
+            return sb.ToString();
         }
     }
 }
