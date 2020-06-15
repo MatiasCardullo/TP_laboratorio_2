@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Archivos", "Archivos\Archiv
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Matias.Cardullo.2A.TP3", "Matias.Cardullo.2A.TP3\Matias.Cardullo.2A.TP3.csproj", "{E65FCBA3-4B75-4A53-A336-9F305A55AC72}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestUnitarios", "TestUnitarios\TestUnitarios.csproj", "{3D1E60E7-1AF3-4B51-9282-3D43540165CC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{E65FCBA3-4B75-4A53-A336-9F305A55AC72}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E65FCBA3-4B75-4A53-A336-9F305A55AC72}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E65FCBA3-4B75-4A53-A336-9F305A55AC72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D1E60E7-1AF3-4B51-9282-3D43540165CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D1E60E7-1AF3-4B51-9282-3D43540165CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D1E60E7-1AF3-4B51-9282-3D43540165CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D1E60E7-1AF3-4B51-9282-3D43540165CC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

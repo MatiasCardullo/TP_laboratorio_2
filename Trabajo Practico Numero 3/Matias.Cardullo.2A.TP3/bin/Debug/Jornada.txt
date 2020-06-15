@@ -1,26 +1,19 @@
 
-CLASE DE Programacion POR NOMBRE COMPLETO: Juarez, RobertoNACIONALIDAD: Argentino
-
- 
-LEGAJO NÚMERO: 2
-CLASES DEL DIA: 
-Programacion
-Laboratorio
- 
-ALUMNOS: 
-NOMBRE COMPLETO: Lopez, JuanNACIONALIDAD: Argentino
+CLASE DE Laboratorio POR NOMBRE COMPLETO: Lopez, JuanNACIONALIDAD: Argentino
 
  
 LEGAJO NÚMERO: 1
-
-ESTADO DE CUENTA: Becado
-TOMA CLASE DE Programacion
-NOMBRE COMPLETO: Gonzalez, CarlosNACIONALIDAD: Argentino
+CLASES DEL DIA: 
+SPD
+Laboratorio
+ 
+ALUMNOS: 
+NOMBRE COMPLETO: Suarez, JoaquinNACIONALIDAD: Extranjero
 
  
-LEGAJO NÚMERO: 5
+LEGAJO NÚMERO: 7
 
 ESTADO DE CUENTA: AlDia
-TOMA CLASE DE Programacion
+TOMA CLASE DE Laboratorio
 <------------------------------------------------------------------------------->
 
