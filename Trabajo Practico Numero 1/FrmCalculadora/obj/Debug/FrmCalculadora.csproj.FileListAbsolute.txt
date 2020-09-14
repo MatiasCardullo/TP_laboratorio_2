@@ -1,0 +1,10 @@
+C:\Users\ins03\Desktop\Facultad\PrograYLabo2\ProyectosC#Labo2\TP1_Calculadora\FrmCalculadora\bin\Debug\FrmCalculadora.exe.config
+C:\Users\ins03\Desktop\Facultad\PrograYLabo2\ProyectosC#Labo2\TP1_Calculadora\FrmCalculadora\bin\Debug\FrmCalculadora.exe
+C:\Users\ins03\Desktop\Facultad\PrograYLabo2\ProyectosC#Labo2\TP1_Calculadora\FrmCalculadora\bin\Debug\FrmCalculadora.pdb
+C:\Users\ins03\Desktop\Facultad\PrograYLabo2\ProyectosC#Labo2\TP1_Calculadora\FrmCalculadora\obj\Debug\FrmCalculadora.csprojAssemblyReference.cache
+C:\Users\ins03\Desktop\Facultad\PrograYLabo2\ProyectosC#Labo2\TP1_Calculadora\FrmCalculadora\obj\Debug\FrmCalculadora.Form1.resources
+C:\Users\ins03\Desktop\Facultad\PrograYLabo2\ProyectosC#Labo2\TP1_Calculadora\FrmCalculadora\obj\Debug\FrmCalculadora.Properties.Resources.resources
+C:\Users\ins03\Desktop\Facultad\PrograYLabo2\ProyectosC#Labo2\TP1_Calculadora\FrmCalculadora\obj\Debug\FrmCalculadora.csproj.GenerateResource.cache
+C:\Users\ins03\Desktop\Facultad\PrograYLabo2\ProyectosC#Labo2\TP1_Calculadora\FrmCalculadora\obj\Debug\FrmCalculadora.csproj.CoreCompileInputs.cache
+C:\Users\ins03\Desktop\Facultad\PrograYLabo2\ProyectosC#Labo2\TP1_Calculadora\FrmCalculadora\obj\Debug\FrmCalculadora.exe
+C:\Users\ins03\Desktop\Facultad\PrograYLabo2\ProyectosC#Labo2\TP1_Calculadora\FrmCalculadora\obj\Debug\FrmCalculadora.pdb

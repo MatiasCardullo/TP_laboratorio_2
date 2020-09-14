@@ -1,0 +1,45 @@
+C:\Users\ins03\Desktop\Facultad\PrograYLabo2\ProyectosC#Labo2\TP1_Calculadora\Entidades\bin\Debug\netstandard2.0\Entidades.deps.json
+C:\Users\ins03\Desktop\Facultad\PrograYLabo2\ProyectosC#Labo2\TP1_Calculadora\Entidades\bin\Debug\netstandard2.0\Entidades.dll
+C:\Users\ins03\Desktop\Facultad\PrograYLabo2\ProyectosC#Labo2\TP1_Calculadora\Entidades\bin\Debug\netstandard2.0\Entidades.pdb
+C:\Users\ins03\Desktop\Facultad\PrograYLabo2\ProyectosC#Labo2\TP1_Calculadora\Entidades\obj\Debug\netstandard2.0\Entidades.csprojAssemblyReference.cache
+C:\Users\ins03\Desktop\Facultad\PrograYLabo2\ProyectosC#Labo2\TP1_Calculadora\Entidades\obj\Debug\netstandard2.0\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\ins03\Desktop\Facultad\PrograYLabo2\ProyectosC#Labo2\TP1_Calculadora\Entidades\obj\Debug\netstandard2.0\Entidades.AssemblyInfoInputs.cache
+C:\Users\ins03\Desktop\Facultad\PrograYLabo2\ProyectosC#Labo2\TP1_Calculadora\Entidades\obj\Debug\netstandard2.0\Entidades.AssemblyInfo.cs
+C:\Users\ins03\Desktop\Facultad\PrograYLabo2\ProyectosC#Labo2\TP1_Calculadora\Entidades\obj\Debug\netstandard2.0\Entidades.dll
+C:\Users\ins03\Desktop\Facultad\PrograYLabo2\ProyectosC#Labo2\TP1_Calculadora\Entidades\obj\Debug\netstandard2.0\Entidades.pdb
+C:\Users\ins03\Desktop\pruebatp1\Entidades\bin\Debug\netstandard2.0\Entidades.deps.json
+C:\Users\ins03\Desktop\pruebatp1\Entidades\bin\Debug\netstandard2.0\Entidades.dll
+C:\Users\ins03\Desktop\pruebatp1\Entidades\bin\Debug\netstandard2.0\Entidades.pdb
+C:\Users\ins03\Desktop\pruebatp1\Entidades\obj\Debug\netstandard2.0\Entidades.csprojAssemblyReference.cache
+C:\Users\ins03\Desktop\pruebatp1\Entidades\obj\Debug\netstandard2.0\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\ins03\Desktop\pruebatp1\Entidades\obj\Debug\netstandard2.0\Entidades.AssemblyInfoInputs.cache
+C:\Users\ins03\Desktop\pruebatp1\Entidades\obj\Debug\netstandard2.0\Entidades.AssemblyInfo.cs
+C:\Users\ins03\Desktop\pruebatp1\Entidades\obj\Debug\netstandard2.0\Entidades.dll
+C:\Users\ins03\Desktop\pruebatp1\Entidades\obj\Debug\netstandard2.0\Entidades.pdb
+C:\Users\ins03\Desktop\prueba\tp_laboratorio_2\TP1_Calculadora\Entidades\bin\Debug\netstandard2.0\Entidades.deps.json
+C:\Users\ins03\Desktop\prueba\tp_laboratorio_2\TP1_Calculadora\Entidades\bin\Debug\netstandard2.0\Entidades.dll
+C:\Users\ins03\Desktop\prueba\tp_laboratorio_2\TP1_Calculadora\Entidades\bin\Debug\netstandard2.0\Entidades.pdb
+C:\Users\ins03\Desktop\prueba\tp_laboratorio_2\TP1_Calculadora\Entidades\obj\Debug\netstandard2.0\Entidades.csprojAssemblyReference.cache
+C:\Users\ins03\Desktop\prueba\tp_laboratorio_2\TP1_Calculadora\Entidades\obj\Debug\netstandard2.0\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\ins03\Desktop\prueba\tp_laboratorio_2\TP1_Calculadora\Entidades\obj\Debug\netstandard2.0\Entidades.AssemblyInfoInputs.cache
+C:\Users\ins03\Desktop\prueba\tp_laboratorio_2\TP1_Calculadora\Entidades\obj\Debug\netstandard2.0\Entidades.AssemblyInfo.cs
+C:\Users\ins03\Desktop\prueba\tp_laboratorio_2\TP1_Calculadora\Entidades\obj\Debug\netstandard2.0\Entidades.dll
+C:\Users\ins03\Desktop\prueba\tp_laboratorio_2\TP1_Calculadora\Entidades\obj\Debug\netstandard2.0\Entidades.pdb
+C:\Users\SantiGO\Desktop\Github\tp_laboratorio_2\TP1_Calculadora\Entidades\bin\Debug\netstandard2.0\Entidades.deps.json
+C:\Users\SantiGO\Desktop\Github\tp_laboratorio_2\TP1_Calculadora\Entidades\bin\Debug\netstandard2.0\Entidades.dll
+C:\Users\SantiGO\Desktop\Github\tp_laboratorio_2\TP1_Calculadora\Entidades\bin\Debug\netstandard2.0\Entidades.pdb
+C:\Users\SantiGO\Desktop\Github\tp_laboratorio_2\TP1_Calculadora\Entidades\obj\Debug\netstandard2.0\Entidades.csprojAssemblyReference.cache
+C:\Users\SantiGO\Desktop\Github\tp_laboratorio_2\TP1_Calculadora\Entidades\obj\Debug\netstandard2.0\Entidades.AssemblyInfoInputs.cache
+C:\Users\SantiGO\Desktop\Github\tp_laboratorio_2\TP1_Calculadora\Entidades\obj\Debug\netstandard2.0\Entidades.AssemblyInfo.cs
+C:\Users\SantiGO\Desktop\Github\tp_laboratorio_2\TP1_Calculadora\Entidades\obj\Debug\netstandard2.0\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\SantiGO\Desktop\Github\tp_laboratorio_2\TP1_Calculadora\Entidades\obj\Debug\netstandard2.0\Entidades.dll
+C:\Users\SantiGO\Desktop\Github\tp_laboratorio_2\TP1_Calculadora\Entidades\obj\Debug\netstandard2.0\Entidades.pdb
+C:\Users\Usuario\Documents\GitHub\TP_laboratorio_2\Trabajo Practico Numero 1\Entidades\bin\Debug\netstandard2.0\Entidades.deps.json
+C:\Users\Usuario\Documents\GitHub\TP_laboratorio_2\Trabajo Practico Numero 1\Entidades\bin\Debug\netstandard2.0\Entidades.dll
+C:\Users\Usuario\Documents\GitHub\TP_laboratorio_2\Trabajo Practico Numero 1\Entidades\bin\Debug\netstandard2.0\Entidades.pdb
+C:\Users\Usuario\Documents\GitHub\TP_laboratorio_2\Trabajo Practico Numero 1\Entidades\obj\Debug\netstandard2.0\Entidades.csprojAssemblyReference.cache
+C:\Users\Usuario\Documents\GitHub\TP_laboratorio_2\Trabajo Practico Numero 1\Entidades\obj\Debug\netstandard2.0\Entidades.AssemblyInfoInputs.cache
+C:\Users\Usuario\Documents\GitHub\TP_laboratorio_2\Trabajo Practico Numero 1\Entidades\obj\Debug\netstandard2.0\Entidades.AssemblyInfo.cs
+C:\Users\Usuario\Documents\GitHub\TP_laboratorio_2\Trabajo Practico Numero 1\Entidades\obj\Debug\netstandard2.0\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Documents\GitHub\TP_laboratorio_2\Trabajo Practico Numero 1\Entidades\obj\Debug\netstandard2.0\Entidades.dll
+C:\Users\Usuario\Documents\GitHub\TP_laboratorio_2\Trabajo Practico Numero 1\Entidades\obj\Debug\netstandard2.0\Entidades.pdb
