@@ -10,7 +10,7 @@ namespace Entidades
     {
         public enum EMarca
         {
-            Chevrolet, Ford, Renault, Toyota, BMW, Honda, HarleyDavidson
+            Chevrolet, Ford, Renault, Toyota, BMW, Honda
         }
         public enum ETamanio
         {

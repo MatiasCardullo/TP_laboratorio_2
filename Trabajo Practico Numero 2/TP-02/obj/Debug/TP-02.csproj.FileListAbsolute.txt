@@ -34,3 +34,13 @@ C:\Users\Matias\Desktop\TP_laboratorio_2\Trabajo Practico Numero 2\TP-02\bin\Deb
 C:\Users\Matias\Desktop\TP_laboratorio_2\Trabajo Practico Numero 2\TP-02\bin\Debug\Entidades.pdb
 C:\Users\Matias\Desktop\TP_laboratorio_2\Trabajo Practico Numero 2\TP-02\obj\Debug\TP-02.csproj.CopyComplete
 C:\Users\Matias\Desktop\TP_laboratorio_2\Trabajo Practico Numero 2\TP-02\obj\Debug\TP-02.pdb
+C:\Users\Usuario\Documents\GitHub\TP_laboratorio_2\Trabajo Practico Numero 2\TP-02\bin\Debug\TP-02.exe.config
+C:\Users\Usuario\Documents\GitHub\TP_laboratorio_2\Trabajo Practico Numero 2\TP-02\bin\Debug\TP-02.exe
+C:\Users\Usuario\Documents\GitHub\TP_laboratorio_2\Trabajo Practico Numero 2\TP-02\bin\Debug\TP-02.pdb
+C:\Users\Usuario\Documents\GitHub\TP_laboratorio_2\Trabajo Practico Numero 2\TP-02\bin\Debug\Entidades.dll
+C:\Users\Usuario\Documents\GitHub\TP_laboratorio_2\Trabajo Practico Numero 2\TP-02\bin\Debug\Entidades.pdb
+C:\Users\Usuario\Documents\GitHub\TP_laboratorio_2\Trabajo Practico Numero 2\TP-02\obj\Debug\TP-02.csprojAssemblyReference.cache
+C:\Users\Usuario\Documents\GitHub\TP_laboratorio_2\Trabajo Practico Numero 2\TP-02\obj\Debug\TP-02.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Documents\GitHub\TP_laboratorio_2\Trabajo Practico Numero 2\TP-02\obj\Debug\TP-02.csproj.CopyComplete
+C:\Users\Usuario\Documents\GitHub\TP_laboratorio_2\Trabajo Practico Numero 2\TP-02\obj\Debug\TP-02.exe
+C:\Users\Usuario\Documents\GitHub\TP_laboratorio_2\Trabajo Practico Numero 2\TP-02\obj\Debug\TP-02.pdb

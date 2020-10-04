@@ -39,10 +39,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Camioneta.cs" />
-    <Compile Include="Moto.cs" />
-    <Compile Include="Estacionamiento.cs" />
-    <Compile Include="Automovil.cs" />
+    <Compile Include="Suv.cs" />
+    <Compile Include="Ciclomotor.cs" />
+    <Compile Include="Taller.cs" />
+    <Compile Include="Sedan.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Vehiculo.cs" />
   </ItemGroup>

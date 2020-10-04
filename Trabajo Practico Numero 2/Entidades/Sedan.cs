@@ -1,33 +1,27 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
-
-using System.Drawing;
 
 namespace Entidades
 {
-    public class Automovil : Vehiculo
+    public class Sedan : Vehiculo
     {
-        public enum ETipo { Monovolumen, Sedan }
-
+        public enum ETipo { CuatroPuertas, CincoPuertas }
         readonly ETipo tipo;
 
         /// <summary>
-        /// Por defecto, TIPO será Monovolumen
+        /// Por defecto, TIPO será CuatroPuertas
         /// </summary>
         /// <param name="marca"></param>
         /// <param name="chasis"></param>
         /// <param name="color"></param>
-        public Automovil(EMarca marca, string chasis, ConsoleColor color)
+        public Sedan(EMarca marca, string chasis, ConsoleColor color)
             : base(chasis, marca, color)
         {
-            tipo = ETipo.Monovolumen;
+            tipo = ETipo.CuatroPuertas;
         }
 
         /// <summary>
-        /// Los automoviles son medianos
+        /// Sedan son 'Mediano'
         /// </summary>
         public override ETamanio Tamanio
         {
@@ -41,7 +35,7 @@ namespace Entidades
         {
             StringBuilder sb = new StringBuilder();
 
-            sb.AppendLine("AUTOMOVIL");
+            sb.AppendLine("SEDAN");
             sb.AppendLine(base.Mostrar());
             sb.AppendFormat("TAMAÑO : {0}", this.Tamanio);
             sb.AppendLine("");

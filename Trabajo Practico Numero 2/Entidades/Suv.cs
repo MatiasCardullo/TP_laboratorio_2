@@ -1,19 +1,16 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace Entidades
 {
-    public class Camioneta : Vehiculo
+    public class Suv : Vehiculo
     {
-        public Camioneta(EMarca marca, string chasis, ConsoleColor color)
+        public Suv(EMarca marca, string chasis, ConsoleColor color)
             : base(chasis, marca, color)
         {
         }
         /// <summary>
-        /// Las camionetas son grandes
+        /// SUV son 'Grande'
         /// </summary>
         public override ETamanio Tamanio
         {
@@ -27,7 +24,7 @@ namespace Entidades
         {
             StringBuilder sb = new StringBuilder();
 
-            sb.AppendLine("CAMIONETA");
+            sb.AppendLine("SUV");
             sb.AppendLine(base.Mostrar());
             sb.AppendFormat("TAMAÑO : {0}", this.Tamanio);
             sb.AppendLine("");

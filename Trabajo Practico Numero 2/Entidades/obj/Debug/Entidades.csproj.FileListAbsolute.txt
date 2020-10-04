@@ -21,3 +21,9 @@ C:\Users\Matias\Desktop\TP_laboratorio_2\Trabajo Practico Numero 2\Entidades\obj
 C:\Users\Matias\Desktop\TP_laboratorio_2\Trabajo Practico Numero 2\Entidades\bin\Debug\Entidades.dll
 C:\Users\Matias\Desktop\TP_laboratorio_2\Trabajo Practico Numero 2\Entidades\bin\Debug\Entidades.pdb
 C:\Users\Matias\Desktop\TP_laboratorio_2\Trabajo Practico Numero 2\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+C:\Users\Usuario\Documents\GitHub\TP_laboratorio_2\Trabajo Practico Numero 2\Entidades\bin\Debug\Entidades.dll
+C:\Users\Usuario\Documents\GitHub\TP_laboratorio_2\Trabajo Practico Numero 2\Entidades\bin\Debug\Entidades.pdb
+C:\Users\Usuario\Documents\GitHub\TP_laboratorio_2\Trabajo Practico Numero 2\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+C:\Users\Usuario\Documents\GitHub\TP_laboratorio_2\Trabajo Practico Numero 2\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Documents\GitHub\TP_laboratorio_2\Trabajo Practico Numero 2\Entidades\obj\Debug\Entidades.dll
+C:\Users\Usuario\Documents\GitHub\TP_laboratorio_2\Trabajo Practico Numero 2\Entidades\obj\Debug\Entidades.pdb
