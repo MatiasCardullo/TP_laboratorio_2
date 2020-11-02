@@ -11,7 +11,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Excepciones", "Excepciones\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Archivos", "Archivos\Archivos.csproj", "{D89D2A3B-E71D-4D3F-B358-3C61ECFE3B26}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Matias.Cardullo.2A.TP3", "Matias.Cardullo.2A.TP3\Matias.Cardullo.2A.TP3.csproj", "{E65FCBA3-4B75-4A53-A336-9F305A55AC72}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Matias.Cardullo.TP3", "Matias.Cardullo.2A.TP3\Matias.Cardullo.TP3.csproj", "{E65FCBA3-4B75-4A53-A336-9F305A55AC72}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestUnitarios", "TestUnitarios\TestUnitarios.csproj", "{3D1E60E7-1AF3-4B51-9282-3D43540165CC}"
 EndProject

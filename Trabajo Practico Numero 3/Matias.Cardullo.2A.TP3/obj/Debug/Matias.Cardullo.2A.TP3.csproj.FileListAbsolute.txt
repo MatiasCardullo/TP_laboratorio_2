@@ -30,3 +30,19 @@ C:\Users\Usuario\Desktop\Matias.Cardullo.2A.TP3\Matias.Cardullo.2A.TP3\bin\Debug
 C:\Users\Usuario\Desktop\Matias.Cardullo.2A.TP3\Matias.Cardullo.2A.TP3\bin\Debug\Clases Instanciables.pdb
 C:\Users\Usuario\Desktop\Matias.Cardullo.2A.TP3\Matias.Cardullo.2A.TP3\bin\Debug\Excepciones.pdb
 C:\Users\Usuario\Desktop\Matias.Cardullo.2A.TP3\Matias.Cardullo.2A.TP3\obj\Debug\Matias.Cardullo.2A.TP3.csproj.CopyComplete
+C:\Users\Usuario\Documents\GitHub\TP_laboratorio_2\Trabajo Practico Numero 3\Matias.Cardullo.2A.TP3\bin\Debug\Matias.Cardullo.2A.TP3.exe.config
+C:\Users\Usuario\Documents\GitHub\TP_laboratorio_2\Trabajo Practico Numero 3\Matias.Cardullo.2A.TP3\bin\Debug\Matias.Cardullo.2A.TP3.exe
+C:\Users\Usuario\Documents\GitHub\TP_laboratorio_2\Trabajo Practico Numero 3\Matias.Cardullo.2A.TP3\bin\Debug\Matias.Cardullo.2A.TP3.pdb
+C:\Users\Usuario\Documents\GitHub\TP_laboratorio_2\Trabajo Practico Numero 3\Matias.Cardullo.2A.TP3\bin\Debug\Archivos.dll
+C:\Users\Usuario\Documents\GitHub\TP_laboratorio_2\Trabajo Practico Numero 3\Matias.Cardullo.2A.TP3\bin\Debug\Clases Abstractas.dll
+C:\Users\Usuario\Documents\GitHub\TP_laboratorio_2\Trabajo Practico Numero 3\Matias.Cardullo.2A.TP3\bin\Debug\Clases Instanciables.dll
+C:\Users\Usuario\Documents\GitHub\TP_laboratorio_2\Trabajo Practico Numero 3\Matias.Cardullo.2A.TP3\bin\Debug\Excepciones.dll
+C:\Users\Usuario\Documents\GitHub\TP_laboratorio_2\Trabajo Practico Numero 3\Matias.Cardullo.2A.TP3\bin\Debug\Archivos.pdb
+C:\Users\Usuario\Documents\GitHub\TP_laboratorio_2\Trabajo Practico Numero 3\Matias.Cardullo.2A.TP3\bin\Debug\Clases Abstractas.pdb
+C:\Users\Usuario\Documents\GitHub\TP_laboratorio_2\Trabajo Practico Numero 3\Matias.Cardullo.2A.TP3\bin\Debug\Clases Instanciables.pdb
+C:\Users\Usuario\Documents\GitHub\TP_laboratorio_2\Trabajo Practico Numero 3\Matias.Cardullo.2A.TP3\bin\Debug\Excepciones.pdb
+C:\Users\Usuario\Documents\GitHub\TP_laboratorio_2\Trabajo Practico Numero 3\Matias.Cardullo.2A.TP3\obj\Debug\Matias.Cardullo.2A.TP3.csprojAssemblyReference.cache
+C:\Users\Usuario\Documents\GitHub\TP_laboratorio_2\Trabajo Practico Numero 3\Matias.Cardullo.2A.TP3\obj\Debug\Matias.Cardullo.2A.TP3.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Documents\GitHub\TP_laboratorio_2\Trabajo Practico Numero 3\Matias.Cardullo.2A.TP3\obj\Debug\Matias.Cardullo.2A.TP3.csproj.CopyComplete
+C:\Users\Usuario\Documents\GitHub\TP_laboratorio_2\Trabajo Practico Numero 3\Matias.Cardullo.2A.TP3\obj\Debug\Matias.Cardullo.2A.TP3.exe
+C:\Users\Usuario\Documents\GitHub\TP_laboratorio_2\Trabajo Practico Numero 3\Matias.Cardullo.2A.TP3\obj\Debug\Matias.Cardullo.2A.TP3.pdb
