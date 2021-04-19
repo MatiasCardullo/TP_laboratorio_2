@@ -1,2 +1,26 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ClassDiagram /> 
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Entidades.Calculadora">
+    <Position X="10.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Entidades.Numero">
+    <Position X="10.5" Y="2.25" Width="2.75" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Program.FormCalculadora">
+    <Position X="1.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACCAAAkALAAAAAAAArAoBACAABAAAAAEBAAAAAAAEA=</HashCode>
+      <FileName>FormCalculadora.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Program.Program">
+    <Position X="4.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

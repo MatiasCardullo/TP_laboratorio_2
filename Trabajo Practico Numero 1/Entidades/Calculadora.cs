@@ -8,21 +8,21 @@ namespace Entidades
 		/// </summary>
 		/// <param name="operador">Operador aritmetico</param>
 		/// <returns>Devuelve el operador o en caso de que no sea valido devuelve "+"</returns>
-		private static string ValidarOperador(string operador){
+		private static string ValidarOperador(char operador){
 			switch (operador){
-				case "+":
+				case '+':
 					break;
-				case "-":
+				case '-':
 					break;
-				case "/":
+				case '/':
 					break;
-				case "*":
+				case '*':
 					break;
 				default:
-					operador = "+";
+					operador = '+';
 					break;
 			}
-			return operador;
+			return operador.ToString();
 		}
 
 		/// <summary>
@@ -34,7 +34,7 @@ namespace Entidades
 		/// <returns>Devuelve el resultado de la operacion deseada</returns>
 		public double Operar(Numero num1, Numero num2, string operador){
 			double resultado = 0;
-			switch(ValidarOperador(operador))
+			switch(ValidarOperador(operador.ToCharArray()[0]))
 			{
 				case "+":
 					resultado = num1 + num2;

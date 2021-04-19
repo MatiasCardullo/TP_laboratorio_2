@@ -20,27 +20,30 @@ namespace Entidades
 		/// <summary>
 		/// Constructor que recibe y carga un double
 		/// </summary>
-		/// <param name="numDouble">Valor del numero</param>
-		public Numero(double numDouble){
-			this.numero=numDouble;
+		/// <param name="numero">Valor del numero</param>
+		public Numero(double numero)
+		{
+			this.numero= numero;
 		}
 
 		/// <summary>
 		/// Constructor que recibe y carga un string
 		/// </summary>
-		/// <param name="numString">Valor del numero</param>
-		public Numero(string numString){
-			this.SetNumero=numString;
+		/// <param name="strNumero">Valor del numero</param>
+		public Numero(string strNumero)
+		{
+			this.SetNumero= strNumero;
 		}
 
 		/// <summary>
 		/// Metodo privado, comprueba que el valor recibido sea numérico.
 		/// </summary>
-		/// <param name="numString">Valor a validar</param>
+		/// <param name="strNumero">Valor a validar</param>
 		/// <returns>Devuelve el numero si el valor ingresado es valido o 0 si no lo es</returns>
-		private double ValidarNumero(string numString){
+		private double ValidarNumero(string strNumero)
+		{
 			double numero;
-			if(double.TryParse(numString, out numero)){
+			if(double.TryParse(strNumero, out numero)){
 				return numero;
 			}else{
 				return 0;
