@@ -1,0 +1,24 @@
+C:\Users\Usuario\Desktop\Matias.Cardullo.2A.TP3 - copia\Excepciones\bin\Debug\Excepciones.dll
+C:\Users\Usuario\Desktop\Matias.Cardullo.2A.TP3 - copia\Excepciones\bin\Debug\Excepciones.pdb
+C:\Users\Usuario\Desktop\Matias.Cardullo.2A.TP3 - copia\Excepciones\obj\Debug\Excepciones.csprojAssemblyReference.cache
+C:\Users\Usuario\Desktop\Matias.Cardullo.2A.TP3 - copia\Excepciones\obj\Debug\Excepciones.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\Matias.Cardullo.2A.TP3 - copia\Excepciones\obj\Debug\Excepciones.dll
+C:\Users\Usuario\Desktop\Matias.Cardullo.2A.TP3 - copia\Excepciones\obj\Debug\Excepciones.pdb
+C:\Users\Usuario\Desktop\Matias.Cardullo.2A.TP3\Excepciones\bin\Debug\Excepciones.dll
+C:\Users\Usuario\Desktop\Matias.Cardullo.2A.TP3\Excepciones\bin\Debug\Excepciones.pdb
+C:\Users\Usuario\Desktop\Matias.Cardullo.2A.TP3\Excepciones\obj\Debug\Excepciones.csprojAssemblyReference.cache
+C:\Users\Usuario\Desktop\Matias.Cardullo.2A.TP3\Excepciones\obj\Debug\Excepciones.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\Matias.Cardullo.2A.TP3\Excepciones\obj\Debug\Excepciones.dll
+C:\Users\Usuario\Desktop\Matias.Cardullo.2A.TP3\Excepciones\obj\Debug\Excepciones.pdb
+C:\Users\Usuario\Documents\GitHub\TP_laboratorio_2\Trabajo Practico Numero 3\Excepciones\bin\Debug\Excepciones.dll
+C:\Users\Usuario\Documents\GitHub\TP_laboratorio_2\Trabajo Practico Numero 3\Excepciones\bin\Debug\Excepciones.pdb
+C:\Users\Usuario\Documents\GitHub\TP_laboratorio_2\Trabajo Practico Numero 3\Excepciones\obj\Debug\Excepciones.csprojAssemblyReference.cache
+C:\Users\Usuario\Documents\GitHub\TP_laboratorio_2\Trabajo Practico Numero 3\Excepciones\obj\Debug\Excepciones.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Documents\GitHub\TP_laboratorio_2\Trabajo Practico Numero 3\Excepciones\obj\Debug\Excepciones.dll
+C:\Users\Usuario\Documents\GitHub\TP_laboratorio_2\Trabajo Practico Numero 3\Excepciones\obj\Debug\Excepciones.pdb
+C:\Users\Usuario\Documents\GitHub\TP_laboratorio_2\old\Trabajo Practico Numero 3\Excepciones\bin\Debug\Excepciones.dll
+C:\Users\Usuario\Documents\GitHub\TP_laboratorio_2\old\Trabajo Practico Numero 3\Excepciones\bin\Debug\Excepciones.pdb
+C:\Users\Usuario\Documents\GitHub\TP_laboratorio_2\old\Trabajo Practico Numero 3\Excepciones\obj\Debug\Excepciones.csprojAssemblyReference.cache
+C:\Users\Usuario\Documents\GitHub\TP_laboratorio_2\old\Trabajo Practico Numero 3\Excepciones\obj\Debug\Excepciones.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Documents\GitHub\TP_laboratorio_2\old\Trabajo Practico Numero 3\Excepciones\obj\Debug\Excepciones.dll
+C:\Users\Usuario\Documents\GitHub\TP_laboratorio_2\old\Trabajo Practico Numero 3\Excepciones\obj\Debug\Excepciones.pdb
