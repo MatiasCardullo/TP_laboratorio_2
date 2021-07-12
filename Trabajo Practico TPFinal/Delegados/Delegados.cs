@@ -1,7 +1,7 @@
 ﻿using System.Data;
 
 /// <summary>
-/// Delegado para manejar un evento que permite añadir items al deposito de compra
+/// Delegado para manejar un evento que permite añadir items al deposito
 /// </summary>
 /// <param name="fila"></param>
 public delegate void AgregarAlDepositoDelegado(DataRow fila);

@@ -134,12 +134,25 @@ namespace Formularios
             this.manejadorBD.da.Update(dt);*/
         }
 
+
+            public static void DoWork()
+            {
+                for (int i = 0; i < 3; i++)
+                {
+                    Console.WriteLine("Working thread...");
+                    Thread.Sleep(500);
+                }
+            }
+   
+        
         private void SacarProducto(int indice)
         {
             try
             {
                 this.dt.Rows[indice].Delete();
                 this.manejadorBD.da.Update(dt);
+                Thread thread1 = new Thread(DoWork);
+                thread1.Start();
             }
             catch (Exception ex)
             {
@@ -148,7 +161,7 @@ namespace Formularios
         }
 
         /// <summary>
-        /// Crea y abre un form con el deposito de compra
+        /// Crea y abre un form con el deposito
         /// </summary>
  
  
@@ -177,7 +190,7 @@ namespace Formularios
             }
         }
         /// <summary>
-        /// Permite añadir el item seleccionado del stock, al deposito de compra,
+        /// Permite añadir el item seleccionado del stock, al deposito,
         /// Asocia el manejador de eventos "AgregarProducto" al evento agregarAlDepositoEvento
         /// y lo invoca pasandole los datos de la fila seleccionada para que el formulario del
         /// deposito los pueda agregar
