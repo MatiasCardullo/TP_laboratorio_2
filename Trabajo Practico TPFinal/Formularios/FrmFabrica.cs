@@ -200,7 +200,6 @@ namespace Formularios
                 //Y le paso la fila seleccionada
                 this.agregarAlDepositoEvento(this.dt.Rows[this.grillaInventario.CurrentRow.Index]);
                 SacarProducto(this.grillaInventario.CurrentRow.Index);
-
                 //Desasocio el manejador, asi la proxima vez no se invoca varias veces
                 this.agregarAlDepositoEvento -= new AgregarAlDepositoDelegado(deposito.AgregarProdutco);
             }
