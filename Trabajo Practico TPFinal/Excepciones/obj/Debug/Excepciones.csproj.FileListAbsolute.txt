@@ -1,0 +1,6 @@
+C:\Users\Usuario\Desktop\Cardullo.Matias.TPFinal\Excepciones\bin\Debug\Excepciones.dll
+C:\Users\Usuario\Desktop\Cardullo.Matias.TPFinal\Excepciones\bin\Debug\Excepciones.pdb
+C:\Users\Usuario\Desktop\Cardullo.Matias.TPFinal\Excepciones\obj\Debug\Excepciones.csprojAssemblyReference.cache
+C:\Users\Usuario\Desktop\Cardullo.Matias.TPFinal\Excepciones\obj\Debug\Excepciones.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\Cardullo.Matias.TPFinal\Excepciones\obj\Debug\Excepciones.dll
+C:\Users\Usuario\Desktop\Cardullo.Matias.TPFinal\Excepciones\obj\Debug\Excepciones.pdb
