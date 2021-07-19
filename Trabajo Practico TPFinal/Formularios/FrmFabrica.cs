@@ -139,8 +139,7 @@ namespace Formularios
             {
                 for (int i = 0; i < 3; i++)
                 {
-                    Console.WriteLine("Working thread...");
-                    Thread.Sleep(500);
+                    Thread.Sleep(1000);
                 }
             }
    
@@ -162,9 +161,7 @@ namespace Formularios
 
         /// <summary>
         /// Crea y abre un form con el deposito
-        /// </summary>
- 
- 
+        /// </summary> 
         private void btnCrearDeposito_Click(object sender, EventArgs e)
         {
             try
