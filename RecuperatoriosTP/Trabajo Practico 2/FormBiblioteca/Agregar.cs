@@ -61,12 +61,20 @@ namespace FormLibreria
                     break;
             }
         }
-
+        /// <summary>
+        /// boton de aceptar
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void button1_Click(object sender, EventArgs e)
         {
             this.DialogResult = DialogResult.OK;
         }
-
+        /// <summary>
+        /// boton de cancelar
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void button2_Click(object sender, EventArgs e)
         {
             this.DialogResult = DialogResult.Cancel;

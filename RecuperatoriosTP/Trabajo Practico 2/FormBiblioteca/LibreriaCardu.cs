@@ -47,25 +47,15 @@ namespace FormLibreria
         }
 
         private void Form1_Load(object sender, EventArgs e)
-        {
-            if (this.miLibreria.Capacidad!=0)
-            {
-                Actualizar();
-                //this.btnEliminar.Enabled = true;
-            }
-            else
-            {
-                //this.btnEliminar.Enabled = false;
-            }
-
+        { 
+            Actualizar();
 
         }
-
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
-
+        /// <summary>
+        /// Boton para agregar libros
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void bAgregar_Click(object sender, EventArgs e)
         {
 
@@ -126,7 +116,11 @@ namespace FormLibreria
 
 
         }
-
+        /// <summary>
+        /// Boton de Venta
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void bVender_Click(object sender, EventArgs e)
         {
             Vender frm = new Vender(miLibreria);

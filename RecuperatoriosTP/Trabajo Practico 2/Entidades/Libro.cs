@@ -75,10 +75,5 @@ namespace Entidades
             this._titulo = titulo;
             this._autor = autor;
         }
-
-
-
-
-
     }
 }
