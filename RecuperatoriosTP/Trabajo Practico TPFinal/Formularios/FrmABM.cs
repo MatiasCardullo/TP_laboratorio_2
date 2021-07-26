@@ -38,20 +38,20 @@ namespace Formularios
         /// <param name="marca"></param>
         /// <param name="tipo"></param>
         /// <param name="modelo"></param>
-        /// <param name="precio"></param>
-        public FrmABM(string marca, string tipo, string modelo, string precio)
+        /// <param name="pulgadas"></param>
+        public FrmABM(string marca, string tipo, string modelo, string pulgadas)
             :this()
         {
             this.cmbMarca.Text = marca;
             this.cmbTipo.Text = tipo;
             this.cmbModelo.Text = modelo;
-            this.txtPrecio.Text = precio;
+            this.txtPulgadas.Text = pulgadas;
         }
         /// <summary>
         /// Confirma la creacion / modificacion de un electrodomestico
         /// </summary>
- 
- 
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnAceptar_Click(object sender, EventArgs e)
         {
             try
@@ -61,14 +61,15 @@ namespace Formularios
                     switch (this.cmbTipo.Text)
                     {
                         case "Tv":
+
                             this.elec = new Tv(Electrodomestico.StringAMarca(cmbMarca.Text),
                                                 Electrodomestico.StringAModelo(cmbModelo.Text),
-                                                float.Parse(txtPrecio.Text));
+                                                float.Parse(txtPulgadas.Text));
                             break;
                         case "Celular":
                             this.elec = new Celular(Electrodomestico.StringAMarca(cmbMarca.Text),
                                                 Electrodomestico.StringAModelo(cmbModelo.Text),
-                                                float.Parse(txtPrecio.Text));
+                                                float.Parse(txtPulgadas.Text));
                             break;
                         default:
                             throw new ProductoInvalidoException();
@@ -77,7 +78,7 @@ namespace Formularios
                 }
                 catch(FormatException ex)
                 {
-                    throw new PrecioInvalidoException();
+                    throw new PulgadasInvalidoException();
                 }
             }
             catch(ProductoInvalidoException ex)
@@ -89,11 +90,11 @@ namespace Formularios
                 MessageBox.Show(ex.Message);
             }
         }
-
-
         /// <summary>
         /// Cancela la creacion/modificacion de un electrodomestico
         /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void btnCancelar_Click(object sender, EventArgs e)
         {
             this.DialogResult = DialogResult.Cancel;

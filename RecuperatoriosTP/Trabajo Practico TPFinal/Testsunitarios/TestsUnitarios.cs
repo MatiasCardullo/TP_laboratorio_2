@@ -30,8 +30,8 @@ namespace Testsunitarios
         [TestMethod]
         public void Validar_Instancia_Celular()
         {
-            Celular cel1 = new Celular(Electrodomestico.EMarcas.Alcatel, Electrodomestico.EModelos.ModeloCelular1, 19000);
-            Celular cel2 = new Celular(Electrodomestico.EMarcas.Alcatel, Electrodomestico.EModelos.ModeloCelular2, 22113);
+            Celular cel1 = new Celular(Electrodomestico.EMarcas.LG, Electrodomestico.EModelos.ModeloCelular1, 19000);
+            Celular cel2 = new Celular(Electrodomestico.EMarcas.LG, Electrodomestico.EModelos.ModeloCelular2, 22113);
             Celular cel3 = new Celular();
 
 
@@ -48,7 +48,7 @@ namespace Testsunitarios
         [ExpectedException(typeof(ModeloException))]
         public void ModeloException_Prueba_Tv()
         {
-            Tv tv = new Tv(Electrodomestico.EMarcas.Samsung, Electrodomestico.EModelos.ModeloCelular1, 30000);
+            Tv tv = new Tv(Electrodomestico.EMarcas.Samsung, Electrodomestico.EModelos.ModeloCelular1, 20);
         }
 
         /// <summary>
@@ -59,7 +59,7 @@ namespace Testsunitarios
         [ExpectedException(typeof(ModeloException))]
         public void ModeloException_Prueba_Celular()
         {
-            Celular cel3 = new Celular(Electrodomestico.EMarcas.Alcatel, Electrodomestico.EModelos.ModeloTV1, 19000);
+            Celular cel3 = new Celular(Electrodomestico.EMarcas.LG, Electrodomestico.EModelos.ModeloTV1, 6);
         }
 
         /// <summary>
@@ -68,9 +68,9 @@ namespace Testsunitarios
         [TestMethod]
         public void Prueba_ImprimirTicket()
         {
-            Tv tv = new Tv(Electrodomestico.EMarcas.Samsung, Electrodomestico.EModelos.ModeloTV1, 30000);
+            Tv tv = new Tv(Electrodomestico.EMarcas.Samsung, Electrodomestico.EModelos.ModeloTV1, 30);
 
-            Assert.IsTrue(Listas<Tv>.imprimirHistorialVentas(tv, "Lista_Deposito.log")); 
+            Assert.IsTrue(Listas<Tv>.imprimirHistorial(tv, "Lista_Deposito.log")); 
         }
         /// <summary>
         /// Prueba que se lea correctamente de un archivo de texto
@@ -78,9 +78,9 @@ namespace Testsunitarios
         [TestMethod]
         public void Prueba_LeerTicket()
         {
-            Tv tv = new Tv(Electrodomestico.EMarcas.Samsung, Electrodomestico.EModelos.ModeloTV1, 30000);
+            Tv tv = new Tv(Electrodomestico.EMarcas.Samsung, Electrodomestico.EModelos.ModeloTV1, 30);
 
-            Listas<Tv>.imprimirHistorialVentas(tv, "Lista_Deposito.log");
+            Listas<Tv>.imprimirHistorial(tv, "Lista_Deposito.log");
             string resultado = Listas<Electrodomestico>.Leer("Lista_Deposito.log");
 
             Assert.IsNotNull(resultado);

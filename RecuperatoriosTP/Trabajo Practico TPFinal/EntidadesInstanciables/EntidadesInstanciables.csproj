@@ -42,7 +42,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ListaElectrodomesticos.cs" />
-    <Compile Include="GestorSql.cs" />
+    <Compile Include="ManejadorSql.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Celular.cs" />
     <Compile Include="Properties\Settings.Designer.cs">

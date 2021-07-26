@@ -12,12 +12,12 @@ namespace MetodosExtension
     {
         /// <summary>
         /// Metodo de extension de la clase Ticket, devuelve una cadena con el 
-        /// resumen de una venta
+        /// resumen de los productos
         /// </summary>
         /// <param name="t"></param>
         /// <param name="obj"></param>
         /// <returns></returns>
-        public static string ObtenerResumenVenta(this Listas<Electrodomestico> t, object obj)
+        public static string ObtenerResumenDepo(this Listas<Electrodomestico> t, object obj)
         {
             StringBuilder sb = new StringBuilder();
 

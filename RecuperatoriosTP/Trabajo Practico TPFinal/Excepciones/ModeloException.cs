@@ -1,4 +1,8 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace Excepciones
 {
@@ -10,9 +14,7 @@ namespace Excepciones
     public class ModeloException : Exception
     {
         public ModeloException()
-            :base("El modelo que se intento asignar no coindice con el tipo de electrodomestico, " +
-                 "Los productos de tipo TV solo pueden tener modelos de TVs, y los productos de tipo celular " +
-                 "solo pueden ser modelos de celular")
+            : base("El modelo que se intento asignar no coindice con el tipo de electrodomestico; Los productos de tipo TV solo pueden tener modelos de TVs, y los productos de tipo celular solo pueden ser modelos de celular")
         {
         }
     }

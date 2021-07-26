@@ -27,16 +27,16 @@ namespace EntidadesInstanciables
         {
             switch (fila["Tipo"].ToString())
             {
-                case "TV":
+                case "Tv":
 
                     lista.lista.Add(new Tv(Electrodomestico.StringAMarca(fila["Marca"].ToString()),
                                         Electrodomestico.StringAModelo(fila["Modelo"].ToString()),
-                                        float.Parse(fila["Precio"].ToString())));
+                                        float.Parse(fila["Pulgadas"].ToString())));
                     break;
                 case "Celular":
                     lista.lista.Add(new Celular(Electrodomestico.StringAMarca(fila["Marca"].ToString()),
                                         Electrodomestico.StringAModelo(fila["Modelo"].ToString()),
-                                        float.Parse(fila["Precio"].ToString())));
+                                        float.Parse(fila["Pulgadas"].ToString())));
                     break;
             }
             return lista;

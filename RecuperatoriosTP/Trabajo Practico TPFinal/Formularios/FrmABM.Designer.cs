@@ -34,7 +34,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.btnAceptar = new System.Windows.Forms.Button();
             this.cmbMarca = new System.Windows.Forms.ComboBox();
-            this.txtPrecio = new System.Windows.Forms.TextBox();
+            this.txtPulgadas = new System.Windows.Forms.TextBox();
             this.cmbModelo = new System.Windows.Forms.ComboBox();
             this.cmbTipo = new System.Windows.Forms.ComboBox();
             this.lbl4 = new System.Windows.Forms.Label();
@@ -75,7 +75,7 @@
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(37, 13);
             this.label3.TabIndex = 5;
-            this.label3.Text = "Precio";
+            this.label3.Text = "Pulgadas";
             // 
             // btnAceptar
             // 
@@ -93,18 +93,18 @@
             this.cmbMarca.FormattingEnabled = true;
             this.cmbMarca.Items.AddRange(new object[] {
             "Samsung",
-            "Alcatel"});
+            "LG"});
             this.cmbMarca.Location = new System.Drawing.Point(12, 25);
             this.cmbMarca.Name = "cmbMarca";
             this.cmbMarca.Size = new System.Drawing.Size(152, 21);
             this.cmbMarca.TabIndex = 8;
             // 
-            // txtPrecio
+            // txtPulgadas
             // 
-            this.txtPrecio.Location = new System.Drawing.Point(12, 124);
-            this.txtPrecio.Name = "txtPrecio";
-            this.txtPrecio.Size = new System.Drawing.Size(152, 20);
-            this.txtPrecio.TabIndex = 11;
+            this.txtPulgadas.Location = new System.Drawing.Point(12, 124);
+            this.txtPulgadas.Name = "txtPulgadas";
+            this.txtPulgadas.Size = new System.Drawing.Size(152, 20);
+            this.txtPulgadas.TabIndex = 11;
             // 
             // cmbModelo
             // 
@@ -149,7 +149,7 @@
             this.Controls.Add(this.cmbTipo);
             this.Controls.Add(this.lbl4);
             this.Controls.Add(this.cmbModelo);
-            this.Controls.Add(this.txtPrecio);
+            this.Controls.Add(this.txtPulgadas);
             this.Controls.Add(this.cmbMarca);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.btnAceptar);
@@ -171,7 +171,7 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button btnAceptar;
         private System.Windows.Forms.ComboBox cmbMarca;
-        private System.Windows.Forms.TextBox txtPrecio;
+        private System.Windows.Forms.TextBox txtPulgadas;
         private System.Windows.Forms.ComboBox cmbModelo;
         private System.Windows.Forms.ComboBox cmbTipo;
         private System.Windows.Forms.Label lbl4;

@@ -11,11 +11,11 @@ namespace EntidadesInstanciables
     public class Celular : Electrodomestico
     {
         /// <summary>
-        /// Enumerado con los tipos de celular
+        /// Enumerado con los tipos de cafetera
         /// </summary>
         public enum ETipoCelular
         {
-            Iphone,
+            SmartPhone,
             Android
         }
 
@@ -31,16 +31,16 @@ namespace EntidadesInstanciables
         /// </summary>
         /// <param name="marca"></param>
         /// <param name="modelo"></param>
-        /// <param name="precio"></param>
-        public Celular(EMarcas marca, EModelos modelo, double precio)
-            :base(marca, modelo, precio)
+        /// <param name="pulgadas"></param>
+        public Celular(EMarcas marca, EModelos modelo, double pulgadas)
+            :base(marca, modelo, pulgadas)
         {
         }
 
         /// <summary>
         /// implementacion de la propiedad abstracta Modelo
-        /// GET: devuelve el modelo de la celular
-        /// SET: establece el modelo a la celular, validando que este coincida con un modelo de celular
+        /// GET: devuelve el modelo del celular
+        /// SET: establece el modelo del celular, validando que este coincida con un modelo de celular
         /// De no coincidir, lanza ModeloException
         /// </summary>
         public override EModelos Modelo
@@ -63,7 +63,7 @@ namespace EntidadesInstanciables
         }
 
         /// <summary>
-        /// Propiedad de lectura, Dependiendo el modelo de la celular, devuelve
+        /// Propiedad de lectura, Dependiendo el modelo del celular, devuelve
         /// un valor de tipo ETipoCelular, indicando su tipo
         /// </summary>
         public ETipoCelular Tipo
@@ -74,10 +74,10 @@ namespace EntidadesInstanciables
                 switch (this.modelo)
                 {
                     case EModelos.ModeloCelular1:
-                        ret = ETipoCelular.Iphone;
+                        ret = ETipoCelular.Android;
                         break;
                     case EModelos.ModeloCelular2:
-                        ret = ETipoCelular.Android;
+                        ret = ETipoCelular.SmartPhone;
                         break;
                     default:
                         throw new ModeloException();
@@ -87,7 +87,7 @@ namespace EntidadesInstanciables
         }
 
         /// <summary>
-        /// override de tostring, Devuelve una cadena con todos los datos de la celular
+        /// override de tostring, Devuelve una cadena con todos los datos del celular
         /// </summary>
         /// <returns></returns>
         public override string ToString()

@@ -31,9 +31,9 @@ namespace EntidadesInstanciables
         /// </summary>
         /// <param name="marca"></param>
         /// <param name="modelo"></param>
-        /// <param name="precio"></param>
-        public Tv(EMarcas marca, EModelos modelo, double precio)
-            :base(marca, modelo, precio)
+        /// <param name="pulgadas"></param>
+        public Tv(EMarcas marca, EModelos modelo, double pulgadas)
+            :base(marca, modelo, pulgadas)
         {
         }
 
@@ -61,30 +61,6 @@ namespace EntidadesInstanciables
                 {
                     throw new ModeloException();
                 }
-            }
-        }
-
-        /// <summary>
-        /// propiedad de lectura, dependiendo el modelo de TV, devuelve
-        /// un int que indica la cantidad de pulgadas que tiene
-        /// </summary>
-        public int Pulgadas
-        {
-            get 
-            {
-                int ret;
-                switch (this.modelo)
-                {
-                    case EModelos.ModeloTV1:
-                        ret = 55;
-                        break;
-                    case EModelos.ModeloTV2:
-                        ret = 70;
-                        break;
-                    default:
-                        throw new ModeloException();
-                }
-                return ret;
             }
         }
 
@@ -123,8 +99,6 @@ namespace EntidadesInstanciables
             sb.Append(base.ToString());
             sb.Append("Tipo: ");
             sb.AppendLine(this.Tipo.ToString());
-            sb.Append("Pulgadas: ");
-            sb.AppendLine(this.Pulgadas.ToString());
 
             return sb.ToString();
         }

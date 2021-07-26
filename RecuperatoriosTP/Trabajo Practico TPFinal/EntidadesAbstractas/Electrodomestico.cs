@@ -10,12 +10,12 @@ namespace EntidadesAbstractas
     public abstract class Electrodomestico
     {
         /// <summary>
-        /// Enumerado con los podibles marcas de los electrodomesticos
+        /// Enumerado con los posibles marcas de los electrodomesticos
         /// </summary>
         public enum EMarcas
         {
             Samsung,
-            Alcatel
+            LG
         }
         /// <summary>
         /// Enumerado con los diferentes modelos 
@@ -30,7 +30,7 @@ namespace EntidadesAbstractas
 
         protected EMarcas marca;
         protected EModelos modelo;
-        protected double precio;
+        protected double pulgadas;
 
         /// <summary>
         /// Constructor por defecto
@@ -45,13 +45,13 @@ namespace EntidadesAbstractas
         /// </summary>
         /// <param name="marca"></param>
         /// <param name="modelo"></param>
-        /// <param name="precio"></param>
-        public Electrodomestico(EMarcas marca, EModelos modelo, double precio)
+        /// <param name="pulgadas"></param>
+        public Electrodomestico(EMarcas marca, EModelos modelo, double pulgadas)
             :this()
         {
             this.marca = marca;
             this.Modelo = modelo;
-            this.precio = precio;
+            this.pulgadas = pulgadas;
         }
 
         /// <summary>
@@ -70,12 +70,12 @@ namespace EntidadesAbstractas
         }
 
         /// <summary>
-        /// propiedad de lectura y escritura para el precio
+        /// propiedad de lectura y escritura para el pulgadas
         /// </summary>
-        public double Precio
+        public double Pulgadas
         {
-            get { return this.precio; }
-            set { this.precio = value; }
+            get { return this.pulgadas; }
+            set { this.pulgadas = value; }
         }
 
         /// <summary>
@@ -91,8 +91,8 @@ namespace EntidadesAbstractas
             sb.AppendLine(this.marca.ToString());
             sb.Append("Modelo: ");
             sb.AppendLine(this.modelo.ToString());
-            sb.Append("Precio: ");
-            sb.AppendLine(this.precio.ToString());
+            sb.Append("Pulgadas: ");
+            sb.AppendLine(this.pulgadas.ToString());
 
             return sb.ToString();
         }
@@ -109,8 +109,8 @@ namespace EntidadesAbstractas
                 case "Samsung":
                     retorno = EMarcas.Samsung;
                     break;
-                case "Alcatel":
-                    retorno = EMarcas.Alcatel;
+                case "LG":
+                    retorno = EMarcas.LG;
                     break;
             }
             return retorno;
@@ -143,7 +143,7 @@ namespace EntidadesAbstractas
 
         /// <summary>
         /// Compara los datos de un electrodomestico con los de una fila de
-        /// tipo DATAROW, si son iguales decuelve true
+        /// tipo DATAROW, si son iguales devuelve true
         /// </summary>
         /// <param name="e"></param>
         /// <param name="fila"></param>
@@ -152,7 +152,7 @@ namespace EntidadesAbstractas
         {
             if (e.Marca.ToString() == fila["Marca"].ToString() &&
                 e.Modelo.ToString() == fila["Modelo"].ToString() &&
-                e.Precio == float.Parse(fila["precio"].ToString()))
+                e.Pulgadas == float.Parse(fila["pulgadas"].ToString()))
             {
                 return true;
             }
@@ -160,7 +160,7 @@ namespace EntidadesAbstractas
         }
         /// <summary>
         /// Compara los datos de un electrodomestico con los de una fila de
-        /// tipo DATAROW, si son distintos decuelve true
+        /// tipo DATAROW, si son distintos devuelve true
         /// </summary>
         /// <param name="e"></param>
         /// <param name="fila"></param>

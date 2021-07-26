@@ -8,8 +8,7 @@ namespace Archivos
     public class ArchivoTexto : IArchivos<string>
     {
         /// <summary>
-        /// Implementacion del metodo de la interfaz, escribe en un aarchivo de 
-        /// texto 
+        /// Implementacion del metodo de la interfaz, escribe en un archivo de texto 
         /// </summary>
         /// <param name="path"></param>
         /// <param name="obj"></param>
@@ -33,8 +32,7 @@ namespace Archivos
             }
         }
         /// <summary>
-        /// Implementacion del metodo de la interfaz, lee un aarchivo de 
-        /// texto 
+        /// Implementacion del metodo de la interfaz, lee un aarchivo de texto 
         /// </summary>
         /// <param name="path"></param>
         /// <param name="obj"></param>

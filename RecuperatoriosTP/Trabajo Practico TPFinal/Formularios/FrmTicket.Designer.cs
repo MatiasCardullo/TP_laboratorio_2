@@ -1,6 +1,6 @@
 ﻿namespace Formularios
 {
-    partial class FrmListas
+    partial class FrmTicket
     {
         /// <summary>
         /// Required designer variable.
@@ -39,17 +39,16 @@
             this.textBox1.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.textBox1.Size = new System.Drawing.Size(351, 241);
             this.textBox1.TabIndex = 0;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
-            // FrmListas
+            // FrmTicket
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(383, 265);
             this.Controls.Add(this.textBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Name = "FrmListas";
-            this.Text = "Deposito";
+            this.Name = "FrmTicket";
+            this.Text = "FrmTicket";
             this.ResumeLayout(false);
             this.PerformLayout();
 

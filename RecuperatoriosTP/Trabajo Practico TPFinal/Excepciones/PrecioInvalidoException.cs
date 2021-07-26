@@ -7,13 +7,13 @@ using System.Threading.Tasks;
 namespace Excepciones
 {
     /// <summary>
-    /// Excepcion para cuando se ingrese un precio con un formato invalido
+    /// Excepcion para cuando se ingrese un pulgadas con un formato invalido
     /// a un producto
     /// </summary>
-    public class PrecioInvalidoException : Exception
+    public class PulgadasInvalidoException : Exception
     {
-        public PrecioInvalidoException()
-            :base("Se intento instanciar un objeto con un precio invalido ")
+        public PulgadasInvalidoException()
+            :base("Se intento instanciar un objeto con un tamaño invalido ")
         {
 
         }

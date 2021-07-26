@@ -13,8 +13,7 @@ namespace Excepciones
     public class ProductoInvalidoException : Exception
     {
         public ProductoInvalidoException()
-            :base("El objeto no fue instanciado porque alguno de" +
-                            "los campos no fue llenado")
+            :base("El objeto no fue instanciado porque alguno de los campos no fue llenado")
         {
 
         }

@@ -11,18 +11,18 @@ namespace Archivos
     public class Listas<T> where T : Electrodomestico
     {
         /// <summary>
-        /// Permite imprimir los datos de una venta en un archivo de texto
+        /// Permite imprimir los datos en un archivo de texto
         /// </summary>
         /// <param name="obj"></param>
         /// <param name="path"></param>
         /// <returns></returns>
-        public static bool imprimirHistorialVentas(T obj, string path)
+        public static bool imprimirHistorial(T obj, string path)
         {
             IArchivos<string> archivoAux = new ArchivoTexto();
             return archivoAux.Guardar(path, obj.ToString(), true);
         }
         /// <summary>
-        /// Permite leer de un archivo de texto los datos de las ventas
+        /// Permite leer de un archivo de texto los datos
         /// </summary>
         /// <param name="path"></param>
         /// <returns></returns>
