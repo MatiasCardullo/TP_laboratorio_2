@@ -33,6 +33,11 @@ namespace Entidades
             return m._precio;
         }
 
+        public Manual(string titulo, float precio, Autor autor, ETipo tipo) : base(titulo, autor, precio)
+        {
+            this.tipo = tipo;
+        }
+
         public Manual(string titulo, float precio, string nombre, string apellido, ETipo tipo) : base(precio, titulo, nombre, apellido)
         {
             this.tipo = tipo;

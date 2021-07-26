@@ -32,7 +32,6 @@ C:\Users\Usuario\Documents\GitHub\TP_laboratorio_2\RecuperatoriosTP\Trabajo Prac
 C:\Users\Usuario\Documents\GitHub\TP_laboratorio_2\RecuperatoriosTP\Trabajo Practico 2\FormBiblioteca\bin\Debug\net5.0-windows\Entidades.pdb
 C:\Users\Usuario\Documents\GitHub\TP_laboratorio_2\RecuperatoriosTP\Trabajo Practico 2\FormBiblioteca\obj\Debug\net5.0-windows\FormBiblioteca.csprojAssemblyReference.cache
 C:\Users\Usuario\Documents\GitHub\TP_laboratorio_2\RecuperatoriosTP\Trabajo Practico 2\FormBiblioteca\obj\Debug\net5.0-windows\FormLibreria.Agregar.resources
-C:\Users\Usuario\Documents\GitHub\TP_laboratorio_2\RecuperatoriosTP\Trabajo Practico 2\FormBiblioteca\obj\Debug\net5.0-windows\FormLibreria.Form1.resources
 C:\Users\Usuario\Documents\GitHub\TP_laboratorio_2\RecuperatoriosTP\Trabajo Practico 2\FormBiblioteca\obj\Debug\net5.0-windows\FormLibreria.Vender.resources
 C:\Users\Usuario\Documents\GitHub\TP_laboratorio_2\RecuperatoriosTP\Trabajo Practico 2\FormBiblioteca\obj\Debug\net5.0-windows\FormBiblioteca.csproj.GenerateResource.cache
 C:\Users\Usuario\Documents\GitHub\TP_laboratorio_2\RecuperatoriosTP\Trabajo Practico 2\FormBiblioteca\obj\Debug\net5.0-windows\FormBiblioteca.GeneratedMSBuildEditorConfig.editorconfig
@@ -44,3 +43,4 @@ C:\Users\Usuario\Documents\GitHub\TP_laboratorio_2\RecuperatoriosTP\Trabajo Prac
 C:\Users\Usuario\Documents\GitHub\TP_laboratorio_2\RecuperatoriosTP\Trabajo Practico 2\FormBiblioteca\obj\Debug\net5.0-windows\ref\FormBiblioteca.dll
 C:\Users\Usuario\Documents\GitHub\TP_laboratorio_2\RecuperatoriosTP\Trabajo Practico 2\FormBiblioteca\obj\Debug\net5.0-windows\FormBiblioteca.pdb
 C:\Users\Usuario\Documents\GitHub\TP_laboratorio_2\RecuperatoriosTP\Trabajo Practico 2\FormBiblioteca\obj\Debug\net5.0-windows\FormBiblioteca.genruntimeconfig.cache
+C:\Users\Usuario\Documents\GitHub\TP_laboratorio_2\RecuperatoriosTP\Trabajo Practico 2\FormBiblioteca\obj\Debug\net5.0-windows\FormLibreria.Libreria.resources

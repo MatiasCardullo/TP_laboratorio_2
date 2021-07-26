@@ -1,7 +1,7 @@
 ﻿
 namespace FormLibreria
 {
-    partial class Form1
+    partial class LibreriaCardu
     {
         /// <summary>
         ///  Required designer variable.

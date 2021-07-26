@@ -13,12 +13,12 @@ namespace FormLibreria
 {
     public partial class Vender : Form
     {
-        private Libreria lib;
+        private Entidades.Libreria lib;
         private Libro libro;
         public int id;
         public float precio;
         //List<Libro> biblo;
-        public Vender(Libreria input)
+        public Vender(Entidades.Libreria input)
         {
             //biblo = input.Libros;
             InitializeComponent();
@@ -45,7 +45,7 @@ namespace FormLibreria
         {
             //infoLibro.Text = biblo[comboBox1.SelectedIndex].ToString();
             id = comboBox1.SelectedIndex;
-            libro= Libreria.GetLibro(lib, id);
+            libro = Entidades.Libreria.GetLibro(lib, id);
             infoLibro.Text = (string)libro;
             precio = libro.Precio;
         }

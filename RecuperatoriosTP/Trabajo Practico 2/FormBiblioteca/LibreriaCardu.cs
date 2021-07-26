@@ -11,12 +11,12 @@ using Entidades;
 
 namespace FormLibreria
 {
-    public partial class Form1 : Form
+    public partial class LibreriaCardu : Form
     {
         public Libreria miLibreria;
         public float cajero;
 
-        public Form1()
+        public LibreriaCardu()
         {
             InitializeComponent();
             this.miLibreria = 3000;
@@ -69,51 +69,61 @@ namespace FormLibreria
         private void bAgregar_Click(object sender, EventArgs e)
         {
 
-            bool ret = true;// miLibreria.Espacio > 0;
-            Agregar frm = new Agregar();
-            DialogResult value = frm.ShowDialog();
-
-            if (value == DialogResult.OK && frm.titulo.Text != "" && frm.autor.Text != "" && frm.precio.Value!=0)
+            bool hayEspacio = miLibreria.Libros.Count()< miLibreria.Capacidad;
+            if (hayEspacio)
             {
-                ELibro tipo;
-                Enum.TryParse(frm.tipo1.SelectedValue.ToString(), out tipo);
-                if (ret)
+                Agregar frm = new Agregar();
+                DialogResult value = frm.ShowDialog();
+
+                if (value == DialogResult.OK && frm.titulo.Text != "" && frm.autor.Text != "" && frm.precio.Value != 0)
                 {
-                    switch (tipo)
+                    ELibro tipo;
+                    Autor autor;
+                    Enum.TryParse(frm.tipo1.SelectedValue.ToString(), out tipo);
+                    if (frm.autor.Text.Contains(','))
                     {
-                        case ELibro.Manual:
-                            ETipo man;
-                            Enum.TryParse(frm.tipo2.SelectedValue.ToString(), out man);
-                            Manual m = new Manual(frm.titulo.Text, (float)frm.precio.Value, frm.autor.Text, frm.autor.Text, man);
-                            this.miLibreria += m;
-                            break;
-                        case ELibro.Novela:
-                            EGenero gen;
-                            Enum.TryParse(frm.tipo2.SelectedValue.ToString(), out gen);
-                            Novela n = new Novela(frm.titulo.Text, (float)frm.precio.Value, new Autor(frm.autor.Text, frm.autor.Text), gen);
-                            this.miLibreria += n;
-                            break;
-
-                        default:
-
-                            break;
+                        string[] splitAutor = frm.autor.Text.Split(',');
+                        autor = new Autor(splitAutor[1], splitAutor[0]);
                     }
-                }
-                if (ret == true)
-                {
-                    MessageBox.Show("Se agrego con exito");
+                    else
+                    {
+                        autor = new Autor(frm.autor.Text,"");
+                    }
+                    if (hayEspacio)
+                    {
+                        switch (tipo)
+                        {
+                            case ELibro.Manual:
+                                ETipo man;
+                                Enum.TryParse(frm.tipo2.SelectedValue.ToString(), out man);
+                                Manual m = new Manual(frm.titulo.Text, (float)frm.precio.Value, autor, man);
+                                this.miLibreria += m;
+                                break;
+                            case ELibro.Novela:
+                                EGenero gen;
+                                Enum.TryParse(frm.tipo2.SelectedValue.ToString(), out gen);
+                                Novela n = new Novela(frm.titulo.Text, (float)frm.precio.Value, autor, gen);
+                                this.miLibreria += n;
+                                break;
 
+                            default:
+
+                                break;
+                        }
+                    }
+                    Actualizar();
+                    MessageBox.Show("Se agrego con exito");
                 }
-                else
+                else if(value == DialogResult.OK)
                 {
-                    MessageBox.Show("Espacio insuficiente para el tipo seleccionado o ya se encuentra estacionado un vehiculo con dicha patente");
+                    MessageBox.Show("Falta ingresar datos");
                 }
-                Actualizar();
             }
             else
             {
-                MessageBox.Show("Falta ingresar datos");
+                MessageBox.Show("Espacio insuficiente en la libreria");
             }
+
 
         }
 

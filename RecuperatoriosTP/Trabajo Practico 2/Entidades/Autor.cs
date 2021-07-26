@@ -13,7 +13,11 @@ namespace Entidades
 
         public static implicit operator string(Autor a)
         {
-            string retorno = a._nombre + " - " + a._apellido;
+            string retorno;
+            if (a._apellido == "")
+                retorno = a._nombre;
+            else
+                retorno = a._nombre + " - " + a._apellido;
             return retorno;
         }
 

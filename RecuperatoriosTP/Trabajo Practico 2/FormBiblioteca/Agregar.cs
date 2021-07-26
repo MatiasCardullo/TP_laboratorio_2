@@ -35,6 +35,7 @@ namespace FormLibreria
         private void autor_TextChanged(object sender, EventArgs e)
         {
             if (titulo.Text != "")
+
                 tipo1.Show();
         }
 
