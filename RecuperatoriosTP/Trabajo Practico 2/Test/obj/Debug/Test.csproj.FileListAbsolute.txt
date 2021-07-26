@@ -1,0 +1,40 @@
+D:\Genma\Escritorio\Gonzalez.Manuel.2A\Test\bin\Debug\Test.exe.config
+D:\Genma\Escritorio\Gonzalez.Manuel.2A\Test\bin\Debug\Test.exe
+D:\Genma\Escritorio\Gonzalez.Manuel.2A\Test\bin\Debug\Test.pdb
+D:\Genma\Escritorio\Gonzalez.Manuel.2A\Test\bin\Debug\Entidades.dll
+D:\Genma\Escritorio\Gonzalez.Manuel.2A\Test\bin\Debug\Entidades.pdb
+D:\Genma\Escritorio\Gonzalez.Manuel.2A\Test\obj\Debug\Test.csprojAssemblyReference.cache
+D:\Genma\Escritorio\Gonzalez.Manuel.2A\Test\obj\Debug\Test.csproj.CoreCompileInputs.cache
+D:\Genma\Escritorio\Gonzalez.Manuel.2A\Test\obj\Debug\Test.csproj.CopyComplete
+D:\Genma\Escritorio\Gonzalez.Manuel.2A\Test\obj\Debug\Test.exe
+D:\Genma\Escritorio\Gonzalez.Manuel.2A\Test\obj\Debug\Test.pdb
+D:\#LAB2\Examenes\Parcial 1\Gonzalez.Manuel.2A\Test\bin\Debug\Test.exe.config
+D:\#LAB2\Examenes\Parcial 1\Gonzalez.Manuel.2A\Test\bin\Debug\Test.exe
+D:\#LAB2\Examenes\Parcial 1\Gonzalez.Manuel.2A\Test\bin\Debug\Test.pdb
+D:\#LAB2\Examenes\Parcial 1\Gonzalez.Manuel.2A\Test\bin\Debug\Entidades.dll
+D:\#LAB2\Examenes\Parcial 1\Gonzalez.Manuel.2A\Test\bin\Debug\Entidades.pdb
+D:\#LAB2\Examenes\Parcial 1\Gonzalez.Manuel.2A\Test\obj\Debug\Test.csprojAssemblyReference.cache
+D:\#LAB2\Examenes\Parcial 1\Gonzalez.Manuel.2A\Test\obj\Debug\Test.csproj.CoreCompileInputs.cache
+D:\#LAB2\Examenes\Parcial 1\Gonzalez.Manuel.2A\Test\obj\Debug\Test.csproj.CopyComplete
+D:\#LAB2\Examenes\Parcial 1\Gonzalez.Manuel.2A\Test\obj\Debug\Test.exe
+D:\#LAB2\Examenes\Parcial 1\Gonzalez.Manuel.2A\Test\obj\Debug\Test.pdb
+D:\Genma\Documents\Apuntes y Bibliografia UTN\Github\Clases Programacion y Laboratorio 2\Examenes\Parcial 1\Gonzalez.Manuel.2A\Test\bin\Debug\Test.exe.config
+D:\Genma\Documents\Apuntes y Bibliografia UTN\Github\Clases Programacion y Laboratorio 2\Examenes\Parcial 1\Gonzalez.Manuel.2A\Test\bin\Debug\Test.exe
+D:\Genma\Documents\Apuntes y Bibliografia UTN\Github\Clases Programacion y Laboratorio 2\Examenes\Parcial 1\Gonzalez.Manuel.2A\Test\bin\Debug\Test.pdb
+D:\Genma\Documents\Apuntes y Bibliografia UTN\Github\Clases Programacion y Laboratorio 2\Examenes\Parcial 1\Gonzalez.Manuel.2A\Test\bin\Debug\Entidades.dll
+D:\Genma\Documents\Apuntes y Bibliografia UTN\Github\Clases Programacion y Laboratorio 2\Examenes\Parcial 1\Gonzalez.Manuel.2A\Test\bin\Debug\Entidades.pdb
+D:\Genma\Documents\Apuntes y Bibliografia UTN\Github\Clases Programacion y Laboratorio 2\Examenes\Parcial 1\Gonzalez.Manuel.2A\Test\obj\Debug\Test.csprojAssemblyReference.cache
+D:\Genma\Documents\Apuntes y Bibliografia UTN\Github\Clases Programacion y Laboratorio 2\Examenes\Parcial 1\Gonzalez.Manuel.2A\Test\obj\Debug\Test.csproj.CoreCompileInputs.cache
+D:\Genma\Documents\Apuntes y Bibliografia UTN\Github\Clases Programacion y Laboratorio 2\Examenes\Parcial 1\Gonzalez.Manuel.2A\Test\obj\Debug\Test.csproj.CopyComplete
+D:\Genma\Documents\Apuntes y Bibliografia UTN\Github\Clases Programacion y Laboratorio 2\Examenes\Parcial 1\Gonzalez.Manuel.2A\Test\obj\Debug\Test.exe
+D:\Genma\Documents\Apuntes y Bibliografia UTN\Github\Clases Programacion y Laboratorio 2\Examenes\Parcial 1\Gonzalez.Manuel.2A\Test\obj\Debug\Test.pdb
+C:\Users\Usuario\Desktop\UTN\Programacion y Lab II\Programacion-2-master\Examenes\Parcial 1\Gonzalez.Manuel.2A\Test\bin\Debug\Test.exe.config
+C:\Users\Usuario\Desktop\UTN\Programacion y Lab II\Programacion-2-master\Examenes\Parcial 1\Gonzalez.Manuel.2A\Test\bin\Debug\Test.exe
+C:\Users\Usuario\Desktop\UTN\Programacion y Lab II\Programacion-2-master\Examenes\Parcial 1\Gonzalez.Manuel.2A\Test\bin\Debug\Test.pdb
+C:\Users\Usuario\Desktop\UTN\Programacion y Lab II\Programacion-2-master\Examenes\Parcial 1\Gonzalez.Manuel.2A\Test\bin\Debug\Entidades.dll
+C:\Users\Usuario\Desktop\UTN\Programacion y Lab II\Programacion-2-master\Examenes\Parcial 1\Gonzalez.Manuel.2A\Test\bin\Debug\Entidades.pdb
+C:\Users\Usuario\Desktop\UTN\Programacion y Lab II\Programacion-2-master\Examenes\Parcial 1\Gonzalez.Manuel.2A\Test\obj\Debug\Test.csprojAssemblyReference.cache
+C:\Users\Usuario\Desktop\UTN\Programacion y Lab II\Programacion-2-master\Examenes\Parcial 1\Gonzalez.Manuel.2A\Test\obj\Debug\Test.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\UTN\Programacion y Lab II\Programacion-2-master\Examenes\Parcial 1\Gonzalez.Manuel.2A\Test\obj\Debug\Test.csproj.CopyComplete
+C:\Users\Usuario\Desktop\UTN\Programacion y Lab II\Programacion-2-master\Examenes\Parcial 1\Gonzalez.Manuel.2A\Test\obj\Debug\Test.exe
+C:\Users\Usuario\Desktop\UTN\Programacion y Lab II\Programacion-2-master\Examenes\Parcial 1\Gonzalez.Manuel.2A\Test\obj\Debug\Test.pdb
